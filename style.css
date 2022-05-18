@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+body {
+    background-color: rgb(90, 147, 161);
+    color: grey;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 1rem;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    margin-right: 41rem;
+    margin-left: 41rem;
+    margin-top: 10rem;
+}
+
+h3 {
+    font-size: 16px;
+    color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+img {
+    padding: 2rem;
+    align-items: center; 
+    align-content: center;
+}
