@@ -1,45 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&family=Roboto:wght@400;500&display=swap');
+
 * {
-    box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 12px;
+    font-family: 'Outfit';
 }
 
-body {
-    background-color: rgb(90, 147, 161);
-    color: grey;
-}
+
+
+body { background-color: hsl(212, 45%, 89%);}
 
 
 .attribution { 
     font-size: 11px; 
+    font-weight: 400;
     text-align: center;
     padding: 1rem;
-}
+    color: hsl(220, 15%, 55%);
+    margin-right: 38px;
+    margin-left: 38px;
+    word-spacing: 3px;
+} 
 
-.attribution a { color: hsl(228, 45%, 44%); }
+/* .attribution a { color: hsl(228, 45%, 44%); } */
 
 .card {
     background-color: white;
-    border-radius: 1rem;
-    margin-right: 41rem;
-    margin-left: 41rem;
-    margin-top: 10rem;
+    border-radius: 16px;
+    display: block;
+    width: 318px;
+    height: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 151px;
+    margin-bottom: 148px;
+    padding-top: 16px;
 }
 
-h3 {
-    font-size: 16px;
+p {
+    font-size: 18px;
+    font-weight: 700;
     color: black;
-    align-items: center;
-    align-content: center;
     text-align: center;
-}
+    margin-top: 28px;
+    margin-right: 38px;
+    margin-left: 38px;
+    word-spacing: 3px;
+} 
 
 
 
-img {
-    padding: 2rem;
-    align-items: center; 
-    align-content: center;
+#img {
+    background-image: url(./images/image-qr-code.png);
+    background-size: cover;
+    height: 289px;
+    width: 289px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
 }
