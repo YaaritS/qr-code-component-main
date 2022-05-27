@@ -21,7 +21,7 @@ body { background-color: hsl(212, 45%, 89%);}
     word-spacing: 3px;
 } 
 
-/* .attribution a { color: hsl(228, 45%, 44%); } */
+.attribution a { color: hsl(228, 45%, 44%); }
 
 .card {
     background-color: white;
@@ -35,6 +35,7 @@ body { background-color: hsl(212, 45%, 89%);}
     margin-bottom: 148px;
     padding-top: 16px;
 }
+
 
 p {
     font-size: 18px;
