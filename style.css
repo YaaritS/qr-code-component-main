@@ -9,53 +9,55 @@
 
 body { background-color: hsl(212, 45%, 89%);}
 
-
-.attribution { 
-    font-size: 11px; 
-    font-weight: 400;
-    text-align: center;
-    padding: 1rem;
-    color: hsl(220, 15%, 55%);
-    margin-right: 38px;
-    margin-left: 38px;
-    word-spacing: 3px;
-} 
-
-.attribution a { color: hsl(228, 45%, 44%); }
-
 .card {
     background-color: white;
     border-radius: 16px;
     display: block;
     width: 318px;
     height: 460px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 151px;
-    margin-bottom: 148px;
+    margin: 151px auto 148px;
     padding-top: 16px;
 }
-
-
-p {
-    font-size: 18px;
-    font-weight: 700;
-    color: black;
-    text-align: center;
-    margin-top: 28px;
-    margin-right: 38px;
-    margin-left: 38px;
-    word-spacing: 3px;
-} 
-
-
 
 #img {
     background-image: url(./images/image-qr-code.png);
     background-size: cover;
     height: 289px;
     width: 289px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto auto;
     border-radius: 16px;
 }
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin: 28px 38px auto;
+    word-spacing: 3px;
+} 
+
+
+p { 
+    font-size: 12px; 
+    font-weight: 400;
+    text-align: center;
+    padding: 0.4rem;
+    color: hsl(220, 15%, 55%);
+    margin: auto 38px;
+    word-spacing: 2px;
+} 
+
+div {
+    font-size: 10px; 
+    font-weight: 400;
+    text-align: center;
+    padding: 0.3rem;
+    color: hsl(220, 15%, 55%);
+}
+
+div a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
