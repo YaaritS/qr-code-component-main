@@ -5,9 +5,8 @@
     font-family: 'Outfit';
 }
 
-
-
 body { background-color: hsl(212, 45%, 89%);}
+
 
 .card {
     background-color: white;
@@ -15,7 +14,7 @@ body { background-color: hsl(212, 45%, 89%);}
     display: block;
     width: 318px;
     height: 460px;
-    margin: 151px auto 148px;
+    margin: 120px auto;
     padding-top: 16px;
 }
 
